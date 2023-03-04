@@ -1,6 +1,6 @@
 # LIVE PREVIEW
 
-link ▶ [click here](lakshyatyagi732.github.io/portfolio)
+link ▶ [click here](https://lakshyatyagi732.github.io/portfolio)
 
 # Getting Started with Create React App
 
