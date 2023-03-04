@@ -25,15 +25,15 @@ data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='400'
       >
 
         
-        <ul className="list-none flex flex-col bg-[#F2CD5C] rounded-3xl h-[70vh] w-[30vh] justify-center">
+        <ul className="list-none flex flex-col bg-[#F2CD5C] rounded-3xl h-[70vh] md:h-[80vh] w-[30vh] md:w-[40vh] justify-center lg:bg-transparent lg:flex-row">
             <hr className="w-2 md:hidden border-2 border-black h-28" />
-          <li className=" items-center flex flex-col text-center">
+          <li className=" items-center flex flex-col text-center my-auto  mx-6">
             <SiHackerrank  
             
-            className="mx-auto w-[10vw] h-[8vh]"
+            className=" w-[10vw] h-[8vh] lg:h-[9vh] "
             size={300} />
 
-            <a className='rounded-3xl bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500 hover:bg-black hover:rounded-xl hover:px-6'
+            <a className='rounded-3xl lg:text-2xl lg:w-40 bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500  hover:bg-black hover:rounded-xl hover:px-6'
               target="_blank"
               rel="noreferrer"
               href="https://www.hackerrank.com/lakshyatyagi732"
@@ -43,13 +43,13 @@ data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='400'
           </li>
 
             <hr className="w-2 md:hidden border-2 border-black h-28" />
-          <li className=" items-center flex flex-col text-center">
+          <li className=" items-center flex flex-col text-center my-auto  mx-6">
             <AiOutlineLinkedin 
 
 
-            className="m-auto w-[10vw] h-[8vh]"
+            className=" w-[10vw] h-[8vh] lg:h-[9vh] "
             size={300} />
-            <a className='rounded-3xl bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500 hover:bg-black hover:rounded-xl hover:px-6'
+            <a className='rounded-3xl lg:text-2xl lg:w-40 bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500  hover:bg-black hover:rounded-xl hover:px-6'
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/lakshyatyagi83/"
@@ -58,13 +58,13 @@ data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='400'
             </a>
           </li>
             <hr className="w-2 md:hidden border-2 border-black h-28" />
-          <li className=" items-center flex flex-col text-center">
+          <li className=" items-center flex flex-col text-center my-auto  mx-6">
             <FaInstagramSquare 
 
 
-            className="m-auto w-[10vw] h-[8vh]"
+            className=" w-[10vw] h-[8vh] lg:h-[9vh] "
             size={300} />
-            <a className='rounded-3xl bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500 hover:bg-black hover:rounded-xl hover:px-6'
+            <a className='rounded-3xl lg:text-2xl bg-black w-96 lg:w-32 text-6xl text-white hover:text-sky-500 transition-all duration-500  hover:bg-black hover:rounded-xl hover:px-6'
               target="_blank"
               
               rel="noreferrer"
@@ -75,13 +75,13 @@ data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='400'
           </li>
 
             <hr className="w-2 md:hidden border-2 border-black h-28" />
-          <li className=" items-center flex flex-col text-center">
+          <li className=" items-center flex flex-col text-center my-auto  mx-6">
             <VscGithub 
 
 
-            className="m-auto w-[10vw] h-[8vh]"
+            className=" w-[10vw] h-[8vh] lg:h-[9vh] "
             size={300} />
-            <a className='rounded-3xl bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500 hover:bg-black hover:rounded-xl hover:px-6'
+            <a className='rounded-3xl lg:text-2xl lg:w-40 bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500  hover:bg-black hover:rounded-xl hover:px-6'
               target="_blank"
               
               rel="noreferrer"
@@ -92,13 +92,13 @@ data-aos='zoom-in' data-aos-duration='1000' data-aos-delay='400'
           </li>
 
             <hr className="w-2 md:hidden border-2 border-black h-28" />
-          <li className=" items-center flex flex-col text-center">
+          <li className=" items-center flex flex-col text-center my-auto  mx-6">
             <GrMail 
 
 
-            className="m-auto w-[10vw] h-[8vh]"
+            className=" w-[10vw] h-[8vh] lg:h-[9vh] "
             size={300} />
-            <a className='rounded-3xl bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500 hover:bg-black hover:rounded-xl hover:px-6'
+            <a className='rounded-3xl lg:text-2xl lg:w-40 bg-black w-96 text-6xl text-white hover:text-sky-500 transition-all duration-500  hover:bg-black hover:rounded-xl hover:px-6'
               target="_blank"
               
               rel="noreferrer"

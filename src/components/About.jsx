@@ -32,11 +32,11 @@ data-aos='fade-down' data-aos-duration='1000' data-aos-delay='400'
         <img
             src={laksh}
             alt=""
-            className="rounded-full border-indigo-800 border-8 h-1/4 sm:h-0"
+            className="rounded-full border-indigo-800 border-8 h-[60vw] sm:h-[40vw] md:h-[40vw] lg:h-[40vw] xl:h-[20vw] 2xl:h-[20vw]"
           />
 
-          <h1 className="font-bold text-8xl w-[90vw] text-center">
-            I am
+          <h1 className="font-bold text-7xl w-[90vw] text-center my-9 font-mono">
+            I am {" "}
             <Typed
               strings={[" Lakshya Tyagi", " Web Developer", " CS undergrad"]}
               className="text-amber-500"
@@ -47,7 +47,7 @@ data-aos='fade-down' data-aos-duration='1000' data-aos-delay='400'
             />
           </h1>
 
-          <p className="font-bold text-6xl text-white w-[100vw] ml-10 pt-10">
+          <p className="font-bold text-4xl font-serif text-center text-white w-[70vw] ml-10 pt-10 my-9 xl:my-0">
             Hello, I'm Lakshya Tyagi, a full stack web developer building
             dynamic and responsive web applications. I'm passionate using my
             skills to create seamless digital experiences that solve real-world

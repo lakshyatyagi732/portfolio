@@ -9,7 +9,7 @@
 body{
     background-repeat: no-repeat;
     height: auto;
-    width: 100vw;
+    width: auto;
     scroll-behavior: smooth;
     background-size: cover;
     background-image: url('../images/main-bg.png');
