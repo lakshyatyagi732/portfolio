@@ -3,24 +3,26 @@
 import React, { useEffect } from 'react'
 import img1 from '../images/orng.png'
 import { ReactTyped } from "react-typed";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Section1 = () => {
-
+  useEffect(()=>{
+    AOS.init()
+  })
 
   return (
-    <div data-aos="fade-up"  className='mt-12 flex justify-around items-center w-screen h-90vh '>
-   <div>
-   <img className='border_for_orange' width={340} src={img1.src} />
+    <div data-aos="fade-up"  className=' mt-12 flex flex-col md:flex-row justify-around items-center w-screen  '>
+   <div className='w-screen sm:w-[40vw]'>
+   <img data-aos="flip-right" className='border_for_orange ' src={img1.src} />
    </div>
 
-<div className=' w-[600px] h-[400px]'>
+<div data-aos="zoom-in-left" className='sm:w-[40vw] w-screen h-[400px] p-3 sm:p-0'>
 <div className='font-semibold'>Hi I am </div>
 <div className='font-semibold text-xl text-[#fd6e01]'>Lakshya Tyagi</div>
 
 <div className='text-6xl'>Full Stack <span className='text-[#fd6e01]'>Web</span></div>
-<div className='text-7xl pl-[16.7rem] text-[#fd6e01] overflow-hidden select-none'>
+<div className='text-7xl text-[#fd6e01] overflow-hidden select-none'>
     <ReactTyped
        strings={[
         "Designer",
